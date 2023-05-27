@@ -15,4 +15,8 @@
 </ul>
 <br>
 <p>Все данные берутся из бесплатного api https://fapi.binance.com/fapi/v1/</p>
-<p>Для запуска в docker: docker-compose up -d</p>
+<p>Для запуска в docker</p>
+<ol>
+  <li>В файле docker.env добавить токен своего бота, и админ id</li>
+  <li>В командной строке прописать docker-compose up -d</li>
+</ol>
